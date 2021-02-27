@@ -5,13 +5,11 @@ body {
 .container {
     width: auto;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 /*Logo
 -----------------------------------------*/
 .konamilogo {
-    border: 1px solid red;
     background: #000000;
 }
 
@@ -21,7 +19,6 @@ body {
 }
 
 .principal {
-    border: 1px solid red;
 }
 
 /*Server Status 
@@ -69,9 +66,104 @@ body {
 --------------------------*/
 
 .fotocapa {
+    position: relative;
     max-width: 1500px;
     margin: 0 auto;
-    margin-bottom: 70px;
-    padding-top: 38.6666666667%;
-    background: url(../img/launch_visual_pc.jpg);
+    padding-top: 38.6666666667%;    
+    background: url(../img/launch_visual_pc.jpg) no-repeat 0 0/100% auto;
+    background-repeat: no-repeat;
+}
+
+
+.bestgame {
+    position: absolute;
+    left: 23%;
+    max-width: 80px;
+}
+
+.fotocapa .bestgame {
+    position: block;
+    top: 5%;
+}
+
+.titlelogo {
+    position: absolute;
+}
+
+.fotocapa .titlelogo {
+    position: absolute;
+    max-width: 800px;
+    margin-left: 23%;
+    top: 72%;
+    width: 54%;
+}
+
+/* Compre Já
+--------------------------------------- */
+
+.compreja {
+    position: relative;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.compreja .btn {
+    margin-top: 5px;
+    display: block;
+    min-width: 320px;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.compreja .bnt a:link {
+    background-color: #ffd300;
+    color: #201e4f;
+}
+
+.compreja .btn a {
+    font-size: 1.1428571429rem;
+    position: relative;
+    display: inline-block;
+    min-height: 40px;
+    padding: 0 10px;
+    line-height: 40px;
+    padding-right: 30px;
+    border-radius: 20px;
+    text-indent: initial;
+    transition: all 0.3s;
+    background-color: #ffd300;
+    font-weight: bold;
+    width: 100%;
+    text-decoration: none;
+}
+
+/*Plataformas 
+---------------------------*/
+
+.plataformas {
+    position: relative;
+    right: 0;
+    left: 0;
+    margin: 5px auto 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.hardware {
+    margin-left: 3%;
+}
+
+.plataformas li {
+    display: inline-block;
+    margin: 0 8px;
+    vertical-align: middle;
+}
+
+.plataformas li img {
+    width: 85px;
+    padding: 5px;
 }
