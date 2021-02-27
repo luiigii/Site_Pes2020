@@ -1,0 +1,77 @@
+body {
+    background-color: #161A37;
+}
+
+.container {
+    width: auto;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+/*Logo
+-----------------------------------------*/
+.konamilogo {
+    border: 1px solid red;
+    background: #000000;
+}
+
+.konamilogo img {
+    width: 130px;
+    vertical-align: bottom;
+}
+
+.principal {
+    border: 1px solid red;
+}
+
+/*Server Status 
+----------------------------------*/
+.server-status {
+    position: relative;
+    height: 40px;
+    padding: 8px;
+    text-align: right;
+    color: #ffffff;
+    background: #252525;
+}
+
+.status {
+    font-size: 0.8571428571rem;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 8px 10px;
+    border-radius: 16px;
+    background-color: black;
+}
+
+.status span img {
+    width: 14px;
+    margin: 0 4px 0 0;
+    vertical-align: bottom;
+}
+
+/*Imagem Pre Season 
+-------------------------------------- */
+
+.preseason {
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 1px 6px rgb(0, 0, 0 / 80%);
+}
+
+.preseason-img img {
+    display: block;
+    max-width: 750px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Foto capa jogo
+--------------------------*/
+
+.fotocapa {
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    padding-top: 38.6666666667%;
+    background: url(../img/launch_visual_pc.jpg);
+}

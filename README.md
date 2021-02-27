@@ -1,2 +1,5 @@
-# Site_Pes2020
-Recriando o site do PES 2020
+# Olá, esse é somente um teste colocando coisas que aprendi no HTML/CSS
+
+Fazendo um site de Museu fictício usando HTML e CSS somente
+
+## 🚀 Let's code! 🚀
